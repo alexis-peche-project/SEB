@@ -89,12 +89,13 @@ nav.principal a[aria-current]{border-color:var(--encre);font-weight:500}
 .puce[aria-pressed=true]{background:var(--encre);border-color:var(--encre);color:#fff}
 
 /* ---------- corps annuaire ---------- */
-main{padding:46px 0 0}
-.entete-liste{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:24px}
+main{padding:60px 0 0}
+.entete-liste{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px;padding-bottom:18px;border-bottom:1px solid var(--trait)}
 .entete-liste h2{font-size:26px}
 .entete-liste h2 em{font-style:normal;color:var(--texte-3);font-weight:400}
-.outils{display:flex;gap:10px;align-items:center}
-.outils select{height:38px;border:1px solid var(--trait-fort);border-radius:2px;padding:0 10px;background:#fff;font-family:var(--corps);font-size:14px}
+.outils{display:flex;gap:12px;align-items:center}
+.outils select{height:42px;border:1px solid var(--trait-fort);border-radius:2px;padding:0 14px;background:#fff;font-family:var(--corps);font-size:14px;color:var(--texte)}
+.outils select:hover{border-color:var(--encre)}
 
 .grille{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:34px;align-items:start}
 
